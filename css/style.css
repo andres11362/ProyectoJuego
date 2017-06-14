@@ -1,0 +1,184 @@
+body{
+    background-color: #6495ed;
+}
+
+a#r1{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/menu/r1.jpg");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.centro:hover #r1, .centro:focus #r1{
+    opacity: 1.0;
+    transition: 0.5s ease;
+}
+
+a#r2{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/menu/r2.jpg");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.centro:hover #r2, .centro:focus #r2{
+    opacity: 1.0;
+    transition: 0.5s ease;
+}
+
+a#ah{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/menu/ah.jpg");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.centro:hover #ah, .centro:focus #ah{
+    opacity: 1.0;
+    transition: 0.5s ease;
+}
+
+a#dd{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/menu/dd.jpg");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.centro:hover #dd, .centro:focus #dd{
+    opacity: 1.0;
+    transition: 0.5s ease;
+}
+
+a#ct{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/menu/ct.jpg");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.centro:hover #ct, .centro:focus #ct{
+    opacity: 1.0;
+    transition: 0.5s ease;
+}
+
+.centro {
+    text-align: center;
+}
+
+.texto {
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.texto h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+div#azul {
+    background-color: blue;
+    color: white;
+}
+
+.centro:hover #azul{
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    transition: 0.5s ease;
+}
+
+div#violeta {
+    background-color: blueviolet;
+    color: white;
+}
+
+.centro:hover #violeta{
+    border: 2px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
+    transition: 0.5s ease;
+}
+
+div#rojo {
+    background-color: red;
+    color: white;
+}
+
+.centro:hover #rojo{
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    transition: 0.5s ease;
+}
+
+div#verde {
+    background-color: green;
+    color: white;
+}
+
+.centro:hover #verde{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    transition: 0.5s ease;
+}
+
+div#amarillo {
+    background-color: yellow;
+    color: black;
+}
+
+.centro:hover #amarillo{
+    border: 2px solid yellow;
+    background-color: black;
+    color: yellow;
+    transition: 0.5s ease;
+}
+
+div#abajo {
+    padding-top: 20px;
+}
+
+div#tit-cen {
+    text-align: center;
+    color: #fff;
+}
+
+div#tit-cen h1 {
+    font-size: 70px;
+    font-family: 'Indie Flower', cursive;
+}
+
+@media (max-width: 800px) {
+    div#abajo {
+        padding-top: 0px;
+    }
+
+    div#tit-cen h1 {
+        font-size: 36px;
+    }
+
+}
