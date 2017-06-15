@@ -1,5 +1,7 @@
 body{
     background-color: #6495ed;
+    font-family: 'Indie Flower', cursive;
+    color: #FFF;
 }
 
 a#r1{
@@ -172,6 +174,10 @@ div#tit-cen h1 {
     font-family: 'Indie Flower', cursive;
 }
 
+div#puzzle {
+    margin: 0 auto;
+}
+
 @media (max-width: 800px) {
     div#abajo {
         padding-top: 0px;
@@ -181,4 +187,13 @@ div#tit-cen h1 {
         font-size: 36px;
     }
 
+}
+
+#aviso-movil-horizontal { display: none; }
+@media only screen and (orientation:portrait) {
+    #wrapper { display:none; }
+    #aviso-movil-horizontal { display:block; }
+}
+@media only screen and (orientation:landscape) {
+    #aviso-movil-horizontal { display:none; }
 }
